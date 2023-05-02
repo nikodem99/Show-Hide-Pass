@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10rem 30rem;
+    width: 250px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.wrapper input {
+    height: 100%;
+    width: 85%;
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.wrapper button {
+    height: 100%;
+    width: 15%;
+    border: none;
+    
+    cursor: pointer;
+}
